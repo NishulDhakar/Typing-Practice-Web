@@ -10,11 +10,6 @@ Challenge yourself, track progress, and become a typing champion! 🏆
 [![Vite](https://img.shields.io/badge/VITE-5-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge)](LICENSE)
 
-[✨ Features](#-features) •
-[🚀 Demo](#-demo) •
-[🛠️ Installation](#️-installation) •
-[📱 Screenshots](#-screenshots) •
-[👨‍💻 Author](#-author)
 
 </div>
 
@@ -63,11 +58,11 @@ npm run dev
 ## 📱 Screenshots
 
 <div align="center">
-<img src="/api/placeholder/400/200" /><img width="1710" alt="Screenshot 2024-11-22 at 4 51 31 PM" src="https://github.com/user-attachments/assets/ee308592-ba6d-4248-9083-f643a311adb5">
+<img width="1710" alt="Screenshot 2024-11-22 at 4 51 31 PM" src="https://github.com/user-attachments/assets/ee308592-ba6d-4248-9083-f643a311adb5">
 
-<img src="/api/placeholder/400/200" /><img width="1710" alt="Screenshot 2024-11-22 at 4 51 44 PM" src="https://github.com/user-attachments/assets/000aa356-1a8c-494c-b225-41c584440e75">
+<img width="1710" alt="Screenshot 2024-11-22 at 4 51 44 PM" src="https://github.com/user-attachments/assets/000aa356-1a8c-494c-b225-41c584440e75">
 
-<img src="/api/placeholder/400/200" /><img width="1457" alt="Screenshot 2024-11-22 at 4 54 11 PM" src="https://github.com/user-attachments/assets/aee34291-c3b9-404f-abab-02ebb2b6530f">
+<img width="1457" alt="Screenshot 2024-11-22 at 4 54 11 PM" src="https://github.com/user-attachments/assets/aee34291-c3b9-404f-abab-02ebb2b6530f">
 
 </div>
 
