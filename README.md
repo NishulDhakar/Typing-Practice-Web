@@ -1,7 +1,6 @@
 <div align="center">
 
-# 🎯 Type Master Challenge
-
+# 🎯 Type Game
 <img src="/api/placeholder/800/400" alt="Typing Game Banner" />
 
 A lightning-fast ⚡ typing speed and accuracy tracker built with React + Vite.
@@ -65,10 +64,10 @@ npm run dev
 ## 📱 Screenshots
 
 <div align="center">
-<img src="/api/placeholder/400/200" alt="Light Mode" />
-<img src="/api/placeholder/400/200" alt="Dark Mode" />
-<br />
-<img src="/api/placeholder/400/200" alt="Stats Dashboard" />
+<img src="/api/placeholder/400/200" alt="Light Mode" /><img width="1710" alt="Screenshot 2024-11-22 at 4 51 31 PM" src="https://github.com/user-attachments/assets/ee308592-ba6d-4248-9083-f643a311adb5">
+
+<img src="/api/placeholder/400/200" alt="Dark Mode" /><img width="1710" alt="Screenshot 2024-11-22 at 4 51 44 PM" src="https://github.com/user-attachments/assets/000aa356-1a8c-494c-b225-41c584440e75">
+
 <img src="/api/placeholder/400/200" alt="Mobile View" />
 </div>
 
@@ -88,18 +87,21 @@ npm run dev
 
 ```bash
 typing-game/
-├── 📱 src/                  # Source files
-│   ├── 🧩 components/       # UI components
-│   │   ├── Button.jsx        # Interactive buttons
-│   │   ├── Footer.jsx        # Page footer
-│   │   ├── LoadingScreen.jsx # Loading animation
-│   │   ├── Stats.jsx         # Performance metrics
-│   │   ├── ThemeToggle.jsx   # Dark/Light switch
-│   │   └── TypingArea.jsx    # Main game area
-│   ├── ⚙️ utils/           # Helper functions
-│   ├── 🎨 styles/          # CSS styles
-│   └── 📄 App.jsx          # Main component
-└── 📦 public/              # Static files
+├── src/
+│   ├── components/           // UI components
+│   │   ├── Button.jsx         // Reusable button component
+│   │   ├── Footer.jsx         // Footer component
+│   │   ├── LoadingScreen.jsx  // Loading screen during initialization
+│   │   ├── PerformanceStats.jsx  // Displays WPM, accuracy, and streak
+│   │   ├── ThemeToggle.jsx    // Dark mode toggle
+│   │   ├── TypingArea.jsx     // Typing text input area
+│   │   ├── UserProgress.jsx   // User progress tracker
+│   ├── utils/                 // Utility functions
+│   │   ├── gameUtils.js       // Functions for calculating stats
+│   │   ├── textGenerators.js  // Text generation logic
+│   ├── App.jsx                // Main application logic
+│   ├── index.css              // Global styles
+│   ├── main.jsx               // React DOM rendering entry point
 ```
 
 ## 🎮 Key Features
@@ -135,9 +137,6 @@ typing-game/
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishuldhakar/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nishuldhakar/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishuldhakar)
-[![Pinterest](https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://in.pinterest.com/nishuldhakar/)
-
-</div>
 
 ## 🤝 Contributing
 
@@ -157,7 +156,7 @@ If this project helped you, please consider giving it a ⭐️!
 
 [![Stargazers](https://img.shields.io/github/stars/NishulDhakar/Typing-Game?style=social)](https://github.com/NishulDhakar/Typing-Game/stargazers)
 
-**[⬆ back to top](#-type-master-challenge)**
+**[⬆ back to top](#-type-Game)**
 
 </div>
 
