@@ -6,7 +6,7 @@ import UserProgress from './components/UserProgress';
 import ThemeToggle from './components/ThemeToggle';
 import LoadingScreen from './components/LoadingScreen';
 import TypingArea from './components/TypingArea';
-import Footer from './components/Footer'; // Import Footer component
+import Footer from './components/Footer'; 
 import { calculateStats, generateChallengeTexts } from './utils/gameUtils';
 
 const App = ({ initialDifficulty = 'medium' }) => {
