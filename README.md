@@ -125,7 +125,6 @@ typing-game/
 ## 👨‍💻 Author
 
 <div align="center">
-  <img src="/api/placeholder/150/150" alt="Nishul Dhakar" style="border-radius:50%" />
   <h3>Nishul Dhakar</h3>
 
 [![𝕏 (Twitter)](https://img.shields.io/badge/@NishulDhakar-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/NishulDhakar)
