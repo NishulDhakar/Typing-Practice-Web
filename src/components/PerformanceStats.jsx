@@ -1,4 +1,3 @@
-// /components/PerformanceStats.js
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import { Trophy, Zap, Target } from 'lucide-react';
