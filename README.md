@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 Type Game
+# 🎯 Type Game 
 
 A lightning-fast ⚡ typing speed and accuracy tracker built with React + Vite.
 Challenge yourself, track progress, and become a typing champion! 🏆
