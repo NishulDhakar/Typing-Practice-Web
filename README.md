@@ -50,13 +50,6 @@ Typing practice doesn't have to be boring.
 
 ---
 
-## 👨‍💻 Author
-
-**Nishul Dhakar**  
-> *"Sharpen your skills — one keystroke at a time."*
-
----
-
 ## 📫 Connect with Me
 
 - 🐦 [Twitter / X](https://x.com/NishulDhakar)  
