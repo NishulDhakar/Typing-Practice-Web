@@ -8,9 +8,9 @@ Your lightning-fast typing companion — sleek, sharp, and precision-focused.
 
 ---
 
-## 📎 Quick Links
+## 🌐 Live Demo
 
-- 🚀 [Live Demo](https://typing-game-lyart.vercel.app/)
+- 🚀 Check it out here → [Live Demo](https://typing-game-lyart.vercel.app/)
 
 ---
 
