@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Moon, Sun, Gamepad2, BarChart2, RefreshCw, Award, Zap, Bookmark } from 'lucide-react';
-import Button from './components/Button';
 import PerformanceStats from './components/PerformanceStats';
 import UserProgress from './components/UserProgress';
-import ThemeToggle from './components/ThemeToggle';
 import LoadingScreen from './components/LoadingScreen';
 import TypingArea from './components/TypingArea';
-import TypingGame from './components/TypingGame';
+// import TypingGame from './components/TypingGame';
 import { calculateStats, generateChallengeTexts } from './utils/gameUtils';
 
 const App = ({ initialDifficulty = 'medium' }) => {
@@ -218,7 +216,7 @@ const App = ({ initialDifficulty = 'medium' }) => {
                   <button
                     key={key}
                     onClick={() => changeDifficulty(key)}
-                    className={`px-4 py-1 text-sm font-medium transition-all duration-200 ${
+                    className={`px-4 py-1 text-sm font-medium transition-all rounded-[15px] duration-200 ${
                       difficulty === key 
                         ? `${color} text-white` 
                         : 'text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
@@ -239,16 +237,16 @@ const App = ({ initialDifficulty = 'medium' }) => {
               </button>
               
               {/* Game toggle button */}
-              <GameToggleButton />
+              {/* <GameToggleButton /> */}
             </div>
           </div>
         </div>
 
         {/* Main content */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
-          {showTypingGame ? (
+          {/* {showTypingGame ? (
             <TypingGame />
-          ) : (
+          ) : ( */}
             <>
               <TypingArea
                 typingText={challengeTexts[currentTextIndex] || ''}
@@ -287,7 +285,7 @@ const App = ({ initialDifficulty = 'medium' }) => {
                 </button>
               </div>
             </>
-          )}
+          {/* )} */}
         </div>
         
         {/* Tips & Tricks section */}
@@ -376,7 +374,7 @@ const App = ({ initialDifficulty = 'medium' }) => {
 };
 
 App.propTypes = {
-  initialDifficulty: PropTypes.oneOf(['easy', 'medium', 'hard']),
+  initialDifficulty: PropTypes.oneOf(['easy', 'medium', 'hard',]),
 };
 
 export default App;
